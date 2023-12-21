@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    background-color: #A4A4A4;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+header,
+nav,
+main,
+article,
+aside,
+section,
+footer {
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: 10vh;
+}
+
+nav {
+    height: 5vh;
+}
+
+article,
+aside {
+    height: 35vh;
+}
+
+main {
+    gap: 1vh;
+    background-color: unset;
+}
+
+article {
+    width: 60vw;
+}
+
+aside {
+    width: 40vw;
+}
+
+section {
+    background-color: unset;
+    gap: 1vh;
+}
+
+footer {
+    height: 9vh;
+}
